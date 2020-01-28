@@ -1,0 +1,213 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header {
+	background-color: #D8BC7F;
+}
+nav {
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	z-index: 99;
+    background-color: #D8BC7F;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	float: left;
+	line-height: 100px;
+}
+ul li a{
+	display: block;
+	text-decoration: none;
+	text-align: right;
+    font-family: staatliches, bolt;	
+	font-size: 20px;
+	padding: 0 30px;
+	color: #FFF7F6;	
+}
+
+html, body {
+	scroll-behavior: smooth;
+}
+body {
+  background-color: #FFF7F6;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+/*overskriften*/
+h1 {
+  
+  color: #EB54B0;
+  margin-top: 150px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: staatliches, bolt;
+  font-size: 75px;
+  padding-top: 100px;
+}
+h2 {
+  color: #103613;
+  margin-left: 0px;
+  text-align: center;
+  font-family: staatliches, bolt; 
+  font-size: 20px;	
+} 
+.underskrift {
+  position: relative;
+  width: 300px;
+  height: auto;
+  top: 10px;
+  left: 580px;
+}
+/*Teksten om mig*/
+#tekst {
+  background-color:#FFF7F6;
+  width: 500px;
+  border: 1px solid #D8BC7F;
+  padding: 50px;
+  margin: 50px;
+  font-family:  quicksand, light; 
+  position: relative;
+  left: 150px;
+  margin-top: 100px;	
+}
+/*billede af mig på forsiden*/
+.ida { 
+  position: absolute;
+  width: 500px;
+  height: auto;
+  top: 500px;
+  right: 150px;
+  border: solid #D8BC7F; 
+  margin-top: 125px;
+}
+
+h3 {
+  color: #D8BC7F;
+  margin-left: 20px;
+  text-align: center;
+  font-family: staatliches, bolt;
+  font-size: 35px;
+  margin-top: 50px; /*denne er på for at styre hvor langt skriften er fra toppen af skærmen*/
+}
+
+h4 {
+  color: #103613;
+  margin-left: 20px;
+  text-align: center;
+  font-family: staatliches, bolt;
+  font-size: 20px;
+  margin-top: 250px; /*denne er på for at styre hvor langt skriften er fra toppen af skærmen*/
+}
+h5 {
+	color: #EB54B0;
+  margin-left: 20px;
+  text-align: center;
+  font-family: staatliches, bolt;
+  font-size: 60px;
+  margin-top: 0px;
+}
+
+.pil {
+  position: relative;
+  width: 50px;
+  height: auto;
+  top: 200px;
+  left: 675px;
+
+}
+.ida2 {
+  position:relative;
+  width: 500px;
+  height: auto;
+  top: 2550px;
+  left: 150px;
+  border: solid #D8BC7F; 
+}
+
+.container{
+	width: 99%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 1px;
+	margin: 1px;
+	margin-top: 200px;
+	text-decoration: none;
+}
+.galleri {
+	width: 350px;
+	height: 375px;
+}
+.tekst { 
+  background-color:#FFF7F6 ;
+  text-align: center;
+  font-family: staatliches, bolt;
+  font-size: 40px;
+  color: #103613;
+  text-decoration: none;
+
+}
+.tekst:hover {
+background-color:#F8E7E9;
+color: #103613;
+text-decoration: none;
+
+}
+.kontakttekst {
+  background-color:#FFF7F6;
+  width: 500px;
+  border: 1px solid #D8BC7F;
+  padding: 50px;
+  margin: 50px;
+  font-family:  quicksand, light; 
+  position: relative;
+  left: 600px;
+  margin-top: 150px;
+}
+a {
+	text-decoration: none;
+}
+.kontakttekst2{
+  background-color:#FFF7F6;
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+  font-family: quicksand; 
+  font-size: 20px;
+  text-align: left;
+  position: relative;
+  left: 750px;
+  margin-top: 80px;
+}
+footer {
+   position:absolute;
+   width: 97%;
+   background-color: #D8BC7F;
+   padding: 21px;
+   margin-top: 200px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+.footertekst {
+	text-align: right;
+	font-family: quicksand;
+	color: #FFF7F6;
+	margin: 25px;
+	
+}
+   .underskriftbund {
+    width:200px;
+    height:auto;
+	
+}
+
+#projekter {
+	background-color: #FFECF1
+}
+    
